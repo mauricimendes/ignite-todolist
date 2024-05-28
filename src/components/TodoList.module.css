@@ -1,0 +1,45 @@
+.todolist {
+  margin-top: 4rem;
+  display: flex;
+  width: 100%;
+
+  flex-direction: column;
+}
+
+.todolist header {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.todolist header section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.todolist header section strong {
+  color: var(--purple);
+  font-size: 0.875rem;
+}
+
+.todolist header section span {
+  padding: 0.125rem 0.5rem;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  color: var(--gray-200);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.criated {
+  color: var(--blue) !important;
+}
+
+.todolist main {
+  margin-top: 1.5rem;
+}

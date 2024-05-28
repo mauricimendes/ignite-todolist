@@ -1,0 +1,25 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  height: 15.25rem;
+
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+}
+
+.empty img {
+  height: 3.5rem;
+}
+
+.empty div strong {
+  color: var(--gray-300);
+  font-weight: bold;
+}
+
+.empty div p {
+  color: var(--gray-300);
+}
