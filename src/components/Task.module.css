@@ -17,7 +17,7 @@
 
 .unchecked {
   height: 1.5rem;
-  width: 1.975rem;
+  width: 1.55rem;
   border: 3px solid var(--blue);
   border-radius: 999px;
   display: flex;
@@ -36,7 +36,7 @@
 
 .checked {
   height: 1.5rem;
-  width: 1.975rem;
+  width: 1.55rem;
   border: 3px solid var(--blue);
   border-radius: 999px;
   display: flex;
@@ -53,9 +53,21 @@
   border-color: var(--purple);
 }
 
-.task p {
+.taskPUnchecked {
   font-size: 0.875rem;
   color: var(--gray-100);
+  text-align: start;
+  width: 100%;
+  flex: 1;
+}
+
+.taskPChekced {
+  font-size: 0.875rem;
+  text-align: start;
+  width: 100%;
+  color: var(--gray-300) !important;
+  text-decoration: line-through;
+  flex: 1;
 }
 
 .task button {
